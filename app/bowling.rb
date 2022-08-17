@@ -42,6 +42,7 @@ class Game
 
             
         end
+        @rolls
     end
 
 
