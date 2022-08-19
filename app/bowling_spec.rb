@@ -22,4 +22,19 @@ describe Game do
       expect(Game.new.play_game).to be_a_kind_of(Array)
     end
   end
+  describe '.bonus_roll' do
+    it 'Add a bonus roll in the last roll' do
+      expect(Game.new.bonus_roll).to be_a_kind_of(Numeric)
+    end
+  end
+  describe '.last_game' do
+    it 'Method for the last roll' do
+      expect(Game.new.last_game).to be_a_kind_of(Array)
+    end
+  end
+  describe '.rules' do
+    it 'Rules of the game' do
+      expect(Game.new.rules).to be_a_kind_of(Numeric)
+    end
+  end
 end
